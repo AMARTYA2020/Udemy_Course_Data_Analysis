@@ -46,7 +46,9 @@ print(f)
 # SOLUTION:
 g = data[(data.subject == 'Graphic Design') & (data.price < '97')]
 print(g)
-
+# b). FIND OUT ALL THE COURSES RELATED TO python where the price is above 97:
+gg=data[(data.subject == 'python') & (data.price>'97')]
+print(gg)
 
 # Q8). FIND OUT ALL THE COURSES RELATED TO 'python':
 # SOLUTION:
